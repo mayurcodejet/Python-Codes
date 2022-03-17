@@ -40,6 +40,42 @@ print(v[1])
 
 for x in "straight": 
     print(x)
-    
+
+#String Length 
+#use this method to get the length of the string 
+#we use the "lens()" > functions
+
+#example 
+a = "Mayuresh"
+print(len(a))
+
+#string are the the phrase or a character which is present in a string, 
+#so we can use the keyword is "in"
+
+txt = "I love to play God of war" 
+print("free" in txt)
+#it will state in the true or false method
+
+#use it in an "if" method
+#use this method you want to check any word is there or not 
+txt = "the best thing is doing me is now" 
+if "right" in txt: 
+    print("yes,'right' is present")
+    #there is not ant "right" word so it will not print in the output 
+
+#CHECK if NOT
+#to check a certian a word is avaliable or not in the keyword or not there 
+#for that we will use "not in" 
+
+txt = "the best thing is not always free!"
+print("costly" not in txt) 
 
 
+#Use it in an if statement:
+
+#Example
+#print only if "expensive" is NOT present:
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
